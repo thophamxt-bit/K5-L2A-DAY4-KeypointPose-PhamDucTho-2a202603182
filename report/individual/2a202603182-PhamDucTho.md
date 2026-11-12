@@ -33,15 +33,15 @@ Cách đổi cờ `occluded` / `outside` cho **một điểm** trên phiên bả
 
 | Nhóm ảnh | Số ảnh | Số skeleton đã gán | Số người dưới 60 px (không gán) | Số poster / gương / màn hình bỏ qua | Thời gian (phút) |
 |---|---:|---:|---:|---:|---:|
-| `easy` | 5 | |5 | | |
+| `easy` | 5 |5 | | | |
 | `occluded` | 3 | 3| | | |
-| `back` | 2 | | 2| | |
+| `back` | 2 |2 | | | |
 | `small` | 1 | 1| | | |
 | `crowd` | 1 | 1| | | |
 | `faces` | 8 | 8| — | | |
 
 - Số ảnh người đã xong ở mốc phút 105: 10/ 10
-- Thời gian thực tế (phút): CP1 ___ · CP2 ___ · CP3 ___
+- Thời gian thực tế (phút): CP1 50'· CP2 40' · CP3 30'
 - Ảnh tốn thời gian nhất là ảnh nào, vì sao?
 
 ...
@@ -167,9 +167,6 @@ Nguồn ảnh: COCO val2017 / Wikimedia Commons.
 
 Kết quả `src/check_submission.py` cho `HoVaTen_bonus_persons.zip`:
 
-```text
-(dán ở đây)
-```
 
 ### B2 — 5 ảnh khuôn mặt đen trắng / hồng ngoại
 
